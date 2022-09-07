@@ -1,6 +1,6 @@
-# Starlight Epub Viewer (Paid Version - 50,000MMK)
+# Epub Viewer by Folio Reader Api (Both Android and iOS Free For Now)
 
-starlight_epub_viewer is an epub ebook reader that encapsulates the [folioreader](https://folioreader.github.io/FolioReaderKit/) framework.
+Epub Viewer is an epub ebook reader that encapsulates the [folioreader](https://folioreader.github.io/FolioReaderKit/) framework.
 It supports iOS and android.
 
 
@@ -13,6 +13,8 @@ It supports iOS and android.
 | Load ePub from Asset | ✅ | ✅ |
 | Share | ✅ | ✅ |
 | Distraction Free Reading | ✅ | ✅ |
+| Custom Fonts, FontSize | ✅ | ✅ |
+| IOS Full Screen Version | ✅ | ✅ |
 
 
 
@@ -53,7 +55,7 @@ Add starlight_epub_viewer as dependency to your pubspec file.
 ```
    starlight_epub_viewer: 
     git:
-      url: https://github.com/YeMyoAung/starlight_epub_viewer.git
+      url: https://github.com/Waqar27324/epubviewer.git
 ```
 ## Android Setup
 
@@ -70,7 +72,7 @@ platform :ios, '9.0'
 target 'Runner' do
   use_frameworks!
   use_modular_headers!
-  pod 'FolioReaderKit', :git => 'https://github.com/YeMyoAung/starlight_folioreader.git'
+  pod 'FolioReaderKit', :git => 'https://github.com/Waqar27324/Folioreaderkitios.git'  
   flutter_install_all_ios_pods File.dirname(File.realpath(__FILE__))
 end
 ```
@@ -117,5 +119,5 @@ And then you can use easily.
 
 ## Contact Us
 
-[Starlight Studio](https://www.facebook.com/starlightstudio.of/)
+[Cookoo Technologies](https://www.facebook.com/waqar.waqar.779642)
 	
