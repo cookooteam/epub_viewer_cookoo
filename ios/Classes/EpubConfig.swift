@@ -1,5 +1,5 @@
 import UIKit
-import FolioReaderKit
+import NFolioReaderKit
 import RealmSwift
 
 
