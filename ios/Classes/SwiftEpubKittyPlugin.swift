@@ -1,7 +1,7 @@
 import Flutter
 import UIKit
 import Foundation
-import FolioReaderKit
+import NFolioReaderKit
 import Realm
 import RealmSwift
 
