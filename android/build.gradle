@@ -40,7 +40,7 @@ android {
 }
 
 dependencies {
-	        implementation 'com.github.Waqar27324:folionew:release'
+	        implementation 'com.github.Waqar27324:folionew:v2'
 
     // implementation "./FolioReader-Android"
     implementation "androidx.multidex:multidex:2.0.1"
